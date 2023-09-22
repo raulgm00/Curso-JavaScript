@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 50px 0;
+  max-width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+button {
+  background-color: rgb(62, 62, 255);
+  color: white;
+  padding: 0.5em 2em;
+  border: none;
+  border-radius: 0.5em;
+}
+
+input {
+  padding: 0.5em;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+.bx.bxs-trash {
+  color: white;
+  background-color: rgb(255, 57, 57);
+  padding: 5px;
+  border-radius: 0.3em;
+}
+
+li .bx {
+  margin-left: 0.5em;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+li .bx:hover {
+  cursor: pointer;
+  background-color: rgb(255, 57, 57);
+  transform: scale(0.9);
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+ol .elementList {
+  background-color: rgb(57, 57, 255);
+  border-radius: 0.5em;
+  color: white;
+  padding: 0.5em;
+}
