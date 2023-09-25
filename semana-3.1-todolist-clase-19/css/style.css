@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-task{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100vw;
+    height: 300px;
+    background-color: aquamarine;
+
+}
